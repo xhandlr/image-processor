@@ -1,4 +1,4 @@
-module ImageProcessor {
+module ImageProcessing {
     
     sequence<byte> ImageBytes;
     
