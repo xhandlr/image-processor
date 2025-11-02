@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.zeroc:ice:3.7.10'
+}
+
+// Directorio de código fuente generado
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'ImageProcessing']
+        }
+    }
+}
+
+application {
+    mainClass = 'Server'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
