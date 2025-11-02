@@ -4,7 +4,7 @@ Un sistema de procesamiento de imágenes distribuido usando Ice (ZeroC)
 
 ## 🏗️ Arquitectura
 
-
+![Arquitectura](image-processor-arquitecture.png) 
 
 ## 🚀 Inicio Rápido
 
@@ -21,4 +21,5 @@ Un sistema de procesamiento de imágenes distribuido usando Ice (ZeroC)
 - Nelson Sandoval
 - Francisco Barrozo
 - Camille Elgueta
+
 
