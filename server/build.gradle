@@ -27,3 +27,11 @@ application {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
+run {
+    systemProperty 'java.net.preferIPv4Stack', 'true'
+    systemProperty 'java.net.preferIPv6Addresses', 'false'
+    standardInput = System.in
+    standardOutput = System.out
+    errorOutput = System.err
+}
